@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -115,7 +115,7 @@
 
     <div class="testimonial_section">
         <div class="container">
-            <div class="row p-5">
+            <div class="row py-5">
                 <div class="col-xl-4">
                     <div class="testimonial_img">
                         <img class="img-fluid img-thumbnail" src="https://i.ibb.co/BB3Nmq0/Portrait-of-smiling-handsome-man-in-blue-t-shirt-standing-with-crossed-arms-isolated-on-grey-backgro.jpg" alt="">
@@ -125,8 +125,8 @@
                   <h3 class="fs-4">Blockquote Used</h3>
                     <figure>
                         <blockquote class="blockquote">
-                          <p class="fs-6 mb-3">Lorem ipsum sit amet, consectetur adipisicing elit. Aliquid suscipit amet veritatis molestiae, facilis sed. A maiores necessitatibus voluptatem voluptatibus atque accusamus nam! Nesciunt, suscipit ipsum?</p>
-                          <p class="fs-6">Lorem ipsum sit amet, consectetur adipisicing elit. Aliquid suscipit amet veritatis molestiae, facilis sed. A maiores necessitatibus voluptatem voluptatibus atque accusamus nam! Nesciunt, suscipit ipsum?</p>
+                          <p class=" mb-3">Lorem ipsum sit amet, consectetur adipisicing elit. Aliquid suscipit amet veritatis molestiae, facilis sed. A maiores necessitatibus voluptatem voluptatibus atque accusamus nam! Nesciunt, suscipit ipsum?</p>
+                          <p class="">Lorem ipsum sit amet, consectetur adipisicing elit. Aliquid suscipit amet veritatis molestiae, facilis sed. A maiores necessitatibus voluptatem voluptatibus atque accusamus nam! Nesciunt, suscipit ipsum?</p>
                           <figcaption class="blockquote-footer">
                             LFWF <cite title="Source Title">Academy</cite>
                           </figcaption>
@@ -148,7 +148,7 @@
             <div class="row">
               <div class="col-xl-7">
                 <h3 class="text-success fs-4 py-3">Bootstrap 5 Table</h3>
-                <table class="table table-bordered table-striped text-center">
+                <table class="table table-bordered table-hover text-center">
                   <thead>
                     <tr class="table-dark">
                       <th scope="col">No.</th>
@@ -244,7 +244,30 @@
                     </tr>
                   </tbody>
                 </table>
+                <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ratione.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
+
               <div class="col-xl-5">
                 <div class="row">
                   <h3 class="text-success fs-4 py-3">Bootstrap 5 Form</h3>
@@ -376,9 +399,83 @@
     </div>
 </div>
 
+<hr>
 
+<!-- Product Section -->
 
+<div class="container-fluid bg-light">
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center text-success my-5">Stretched-Link Bootstrap class Used</h2>
+            <div class="col-xl-4">
+              <div class="card">
+                <img class="card-img-top" src="https://i.ibb.co/2SdfNXP/blog-2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-4">Card with stretched link</h5>
+                  <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                  <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="card">
+                <img class="card-img-top" src="https://i.ibb.co/ftcNV3x/blog-3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-4">Card with stretched link</h5>
+                  <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                  <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="card">
+                <img class="card-img-top" src="https://i.ibb.co/5kmM7tj/blog-1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-4">Card with stretched link</h5>
+                  <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                  <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- Pagination -->
+
+<div class="container">
+  <div class="row ">
+      <div class="col-xl-12 mt-4 mb-2">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-xl-12 text-center bg-dark text-white">
+        <p class="mt-4">&copy; All right reserved desig by LFWF</p>
+      </div>
+  </div>
+</div>
 
 
 
